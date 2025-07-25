@@ -12,7 +12,7 @@ spec:
     - http:
         paths:
           - pathType: Prefix
-            path: /shop
+            path: /
             backend:
               service:
                 name: online-shop-svc
